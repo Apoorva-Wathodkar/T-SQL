@@ -31,4 +31,4 @@ ON dm_mig.index_handle = dm_mid.index_handle
 WHERE dm_mid.database_ID = DB_ID()
 ORDER BY Avg_Estimated_Impact DESC
 
-SELECT * FROM #tempindexes WHERE TableName IN ('registrationContainer','commissioncontainer','salescontainer','trackingcontainer','dimplayer','dimplayerreginfo')
+SELECT * FROM #tempindexes 
